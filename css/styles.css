@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Teko", system-ui;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #cc0000;
+    color: white;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+#logo {
+    float: left;
+    height: 60px;
+    margin-right: 20px;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: #cc0000;
+    border-radius: 5px;
+}
+
+main {
+    padding-top: 100px;
+    margin: 0 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2 {
+    color: #001f3f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.center-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 50px;
+}
+
+#main-video {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#main-video iframe {
+    width: 80%;
+    height: 450px;
+    border: 2px solid #001f3f;
+    border-radius: 10px;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: 5px solid #cc0000;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #001f3f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 5px solid #cc0000;
+    margin-top: 50px;
+    font-size: 1em;
+}
+
